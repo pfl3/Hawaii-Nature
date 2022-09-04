@@ -32,6 +32,10 @@ header {
   margin: 0 auto;
   width: 90%;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   height: 100px;
   width: 100px;
@@ -46,14 +50,12 @@ header {
   justify-content: center;
   align-items: center;
   max-width: 1000px;
-
   margin: 0 auto;
   padding: 1rem;
 }
 .nav-list {
   display: flex;
   gap: 5rem;
-  /* border: 1px blue solid; */
 }
 .nav-list li {
   list-style: none;
@@ -75,4 +77,18 @@ header {
   width: 90%;
   height: 90%;
   background: var(--laurel-green);
+}
+footer {
+  height: 50px;
+}
+.footer-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.footer a,
+p {
+  color: var(--charcoal);
+  font-size: 1.8rem;
+  text-decoration: none;
 }
