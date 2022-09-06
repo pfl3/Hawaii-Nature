@@ -1,0 +1,23 @@
+{
+  "name": "hawaii-nature",
+  "version": "1.0.0",
+  "description": "A website about the natural geography of the Hawaiian Islands",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfl3/Hawaii-Nature.git"
+  },
+  "keywords": [],
+  "author": "Paul F. Laubach III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfl3/Hawaii-Nature/issues"
+  },
+  "homepage": "https://github.com/pfl3/Hawaii-Nature#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
